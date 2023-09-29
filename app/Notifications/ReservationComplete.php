@@ -38,8 +38,8 @@ class ReservationComplete extends Notification
     {
         return (new MailMessage)
                     ->greeting('Hello! '.$this->reservation->first_name.' '.$this->reservation->last_name)
-                    ->line('This to confirm you that your reservation of '.$this->reservation->number_of_tickets.' tickets for the event '.$this->reservation->event->event_name.' has been completed successfully.')
-                    ->line('Furthermore if there are any updates regarding the event, we will notify you by a email to this email address: '.$this->reservation->email)
+                    ->line('This to confirm you that your reservation of '.$this->reservation->number_of_tickets.' booking for the hotel '.$this->reservation->event->event_name.' has been completed successfully.')
+                    ->line('Furthermore if there are any updates regarding the bookings, we will notify you by a email to this email address: '.$this->reservation->email)
                     ->line('Thank you for your reservation!');
     }
 
