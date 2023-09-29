@@ -47,7 +47,7 @@ Route::middleware([
         'index', 'create', 'edit', 'destroy'
     ]);
 
-    Route::get('/reservations', [AdminReservationController::class, 'index'
+    Route::get('/bookings', [AdminReservationController::class, 'index'
     ])->name('reservation.index');
 
     Route::get('/users', [App\Http\Controllers\Admin\UserController::class, 'index'
@@ -57,10 +57,10 @@ Route::middleware([
 
 
 
-Route::get('events', [EventController::class, 'index'])
+Route::get('hotels', [EventController::class, 'index'])
     ->name('event.index');
 
-Route::get('event/{event}', [EventController::class, 'show'])
+Route::get('hotel/{event}', [EventController::class, 'show'])
     ->name('event.show');
 
 Route::get('reserve/{event}',[EventController::class, 'reservation'] )
@@ -70,5 +70,5 @@ Route::get('reserve/{event}',[EventController::class, 'reservation'] )
 Route::get('/', HomeController::class)
     ->name('home');
 
-Route::get('/myevents', MyEventsController::class)
+Route::get('/mybookings', MyEventsController::class)
     ->name('myevents');

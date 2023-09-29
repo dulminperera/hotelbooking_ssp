@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Events') }}
+            {{ __('Hotels') }}
         </h2>
     </x-slot>
 
@@ -33,7 +33,7 @@
                         <x-th>Address</x-th>
                         <x-th>Date</x-th>
                         <x-th>Time</x-th>
-                        <x-th>Price Per Ticket</x-th>
+                        <x-th>Price Per Room</x-th>
                         <x-th>Actions</x-th>
                         <x-th></x-th>
                     </x-slot>
@@ -62,7 +62,7 @@
                                         @csrf
                                         @method('DELETE')
                                         <button type="submit"
-                                            onclick="return confirm('Are you sure you want to delete this event?')"
+                                            onclick="return confirm('Are you sure you want to delete this hotel?')"
                                             class="text-indigo-600 hover:text-indigo-900">
                                             Delete
                                         </button>

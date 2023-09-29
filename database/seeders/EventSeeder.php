@@ -15,14 +15,14 @@ class EventSeeder extends Seeder
         $events = array(
             array(
                 'image' => 'event1.jpg',
-                'date' => 'June 15, 2023',
+                'date' => 'June 15, 2023', //this should be future date
                 'time' => '7:00 PM',
-                'event_name' => 'Galadari Hotel',
+                'event_name' => 'Galadari Hotel', //this
                 'venue' => 'Central Park',
                 'address' => 'New York',
-                'description' => 'Join us for an unforgettable evening of live music performances from top artists. Food and drinks will be available.',
-                'price_per_ticket' => 'Rs:50000',
-                'phone' => '555-1234',
+                'description' => 'Join us for an unforgettable evening of live music performances from top artists. Food and drinks will be available.', //this
+                'price_per_ticket' => 'Rs:50000', //this
+                'phone' => '555-1234', //this
                 'email' => 'info@summermusicfest.com',
                 'website' => 'www.summermusicfest.com'
             ),

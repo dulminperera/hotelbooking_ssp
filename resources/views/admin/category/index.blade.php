@@ -35,7 +35,7 @@
                                             <button disabled class="text-indigo-600 hover:text-indigo-900 cursor-not-allowed">Delete</button>
                                             {{-- <p class="text-red-500">This category is referenced in events and cannot be deleted.</p> --}}
                                             @else
-                                            <form class="inline-block" action="{{ route('admin.category.destroy', $category) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this hotel?')">
+                                            <form class="inline-block" action="{{ route('admin.category.destroy', $category) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this category?')">
                                                 @csrf
                                                 @method('DELETE')
                                                 <button type="submit" class="text-indigo-600 hover:text-indigo-900">Delete</button>
