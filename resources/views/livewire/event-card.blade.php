@@ -3,7 +3,7 @@
         @if ($event->hasMedia('image'))
         <img class="rounded-t-lg" src="{{ $event->getFirstMediaUrl('image') }}" alt=""/>
         @else
-        <img class="rounded-t-lg" src="https://3.imimg.com/data3/GV/NB/MY-4436802/hotel-reservation-service-500x500.jpg" alt=""/>
+        <img class="rounded-t-lg" src="https://cdn.britannica.com/96/115096-050-5AFDAF5D/Bellagio-Hotel-Casino-Las-Vegas.jpg" alt=""/>
         @endif
     </a>
     <div class="p-5">

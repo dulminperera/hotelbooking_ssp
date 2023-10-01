@@ -14,44 +14,44 @@ class CategorySeeder extends Seeder
     {
         $categories = array(
             array(
-                'name' => 'Music',
-                'description' => 'Events related to music concerts, festivals, and performances.'
+                'name' => 'Luxury',
+                'description' => 'Offering top tier amentities.'
             ),
             array(
-                'name' => 'Sports',
-                'description' => 'Events related to sports competitions, matches, and tournaments.'
+                'name' => 'Boutique',
+                'description' => 'Smaller Unique Properties.'
             ),
             array(
-                'name' => 'Art',
-                'description' => 'Events related to art exhibitions, galleries, and workshops.'
+                'name' => 'Budget',
+                'description' => 'Affordable Accomodations.'
             ),
             array(
-                'name' => 'Food',
-                'description' => 'Events related to food festivals, culinary events, and cooking classes.'
-            ),
-            array(
-                'name' => 'Technology',
-                'description' => 'Events related to technology conferences, hackathons, and workshops.'
+                'name' => 'Resort',
+                'description' => 'Located in vacation destinations.'
             ),
             array(
                 'name' => 'Business',
-                'description' => 'Events related to business conferences, networking events, and seminars.'
+                'description' => 'Catering to business travelers.'
             ),
             array(
-                'name' => 'Fashion',
-                'description' => 'Events related to fashion shows, runway events, and designer exhibitions.'
+                'name' => 'Bed and Breakfast',
+                'description' => 'Cozy Accommodations.'
             ),
             array(
-                'name' => 'Health',
-                'description' => 'Events related to health and wellness expos, fitness workshops, and medical conferences.'
+                'name' => 'EcoFriendly',
+                'description' => 'Environment friendly resorts.'
             ),
             array(
-                'name' => 'Film',
-                'description' => 'Events related to film screenings, movie premieres, and film festivals.'
+                'name' => 'Extended Stay',
+                'description' => 'Designed for longer stays.'
             ),
             array(
-                'name' => 'Education',
-                'description' => 'Events related to educational seminars, workshops, and academic conferences.'
+                'name' => 'All Exclusive Resort',
+                'description' => 'Ideal for those seeking a hassle free vacation.'
+            ),
+            array(
+                'name' => 'Spa',
+                'description' => 'Focused on wellnessand relaxation.'
             ),
         );
 

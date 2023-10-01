@@ -15,14 +15,14 @@ class EventSeeder extends Seeder
         $events = array(
             array(
                 'image' => 'event1.jpg',
-                'date' => 'December 2, 2024', //this should be future date done
+                'date' => 'December 2, 2024', 
                 'time' => '7:00 PM',
-                'event_name' => 'Galadari Hotel', //this  done
+                'event_name' => 'Galadari Hotel',
                 'venue' => 'Central Park',
                 'address' => 'New York',
-                'description' => 'Join usx for an unforgettable evening of live music performances from top artists. Food and drinks will be available.', //this
-                'price_per_ticket' => 'Rs:10000', //this done
-                'phone' => '077-0011', //this done
+                'description' => 'Join usx for an unforgettable evening of live music performances from top artists. Food and drinks will be available.', 
+                'price_per_ticket' => 'Rs:10000', 
+                'phone' => '077-0011', 
                 'email' => 'info@summermusicfest.com',
                 'website' => 'www.summermusicfest.com'
             ),
